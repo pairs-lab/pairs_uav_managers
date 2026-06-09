@@ -44,7 +44,6 @@ set(DEPENDENCIES
   visualization_msgs
   tf2_geometry_msgs
   Eigen3
-  pairs_uav_testing
   backward_ros
 )
 
