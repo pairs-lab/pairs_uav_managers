@@ -1,0 +1,41 @@
+<library path="lib/libPairsUavManagers_UavManager">
+  <class name="pairs_uav_managers/UavManager" type="pairs_uav_managers::uav_manager::UavManager" base_class_type="nodelet::Nodelet">
+    <description>UavManager nodelet</description>
+  </class>
+</library>
+
+<library path="lib/libPairsUavManagers_ControlManager">
+  <class name="pairs_uav_managers/ControlManager" type="pairs_uav_managers::control_manager::ControlManager" base_class_type="nodelet::Nodelet">
+    <description>ControlManager nodelet</description>
+  </class>
+</library>
+
+<library path="lib/libPairsUavManagers_ConstraintManager">
+  <class name="pairs_uav_managers/ConstraintManager" type="pairs_uav_managers::constraint_manager::ConstraintManager" base_class_type="nodelet::Nodelet">
+    <description>ConstraintManager nodelet</description>
+  </class>
+</library>
+
+<library path="lib/libPairsUavManagers_GainManager">
+  <class name="pairs_uav_managers/GainManager" type="pairs_uav_managers::gain_manager::GainManager" base_class_type="nodelet::Nodelet">
+    <description>GainManager nodelet</description>
+  </class>
+</library>
+
+<library path="lib/libPairsUavManagers_TfManager">
+  <class name="pairs_uav_managers/TfManager" type="pairs_uav_managers::tf_manager::TfManager" base_class_type="nodelet::Nodelet">
+    <description>TfManager nodelet</description>
+  </class>
+</library>
+
+<library path="lib/libPairsUavManagers_EstimationManager">
+  <class name="pairs_uav_managers/EstimationManager" type="pairs_uav_managers::estimation_manager::EstimationManager" base_class_type="nodelet::Nodelet">
+    <description>EstimationManager nodelet</description>
+  </class>
+</library>
+
+<library path="lib/libPairsUavManagers_TransformManager">
+  <class name="pairs_uav_managers/TransformManager" type="pairs_uav_managers::transform_manager::TransformManager" base_class_type="nodelet::Nodelet">
+    <description>TransformManager nodelet</description>
+  </class>
+</library>

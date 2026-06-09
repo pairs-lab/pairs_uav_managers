@@ -1,0 +1,4 @@
+log4j.logger.ros.pairs_uav_managers=DEBUG
+log4j.logger.ros.pairs_uav_trackers=DEBUG
+log4j.logger.ros.pairs_uav_controllers=DEBUG
+log4j.logger.ros.pairs_uav_state_estimators=DEBUG
