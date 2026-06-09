@@ -33,3 +33,5 @@ pairs_uav_gazebo_simulation:
   ubuntu: [ros-noetic-pairs-uav-gazebo-simulation]
 nlopt:
   ubuntu: [ros-noetic-nlopt]
+tmuxinator:
+  ubuntu: [tmuxinator]
