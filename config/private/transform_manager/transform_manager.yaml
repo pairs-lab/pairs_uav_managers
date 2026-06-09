@@ -1,0 +1,6 @@
+pairs_uav_managers:
+
+  transform_manager:
+
+    scope_timer:
+      enabled: false

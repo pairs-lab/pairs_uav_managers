@@ -1,0 +1,17 @@
+pairs_uav_managers:
+
+  estimation_manager:
+
+    state_estimators: [
+      "gps_baro",
+    ]
+
+    initial_state_estimator: "gps_baro"
+
+    agl_estimator: ""
+
+  constraint_manager:
+
+    default_constraints:
+      gps_garmin: "medium"
+      gps_baro: "medium"

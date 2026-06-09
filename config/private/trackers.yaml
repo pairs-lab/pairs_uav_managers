@@ -1,0 +1,43 @@
+pairs_uav_managers:
+
+  control_manager:
+
+    MpcTracker:
+      address: "pairs_uav_trackers::mpc_tracker::MpcTracker"
+      namespace: "mpc_tracker"
+      human_switchable: true
+
+    LandoffTracker:
+      address: "pairs_uav_trackers::landoff_tracker::LandoffTracker"
+      namespace: "landoff_tracker"
+      human_switchable: false
+
+    LineTracker:
+      address: "pairs_uav_trackers::line_tracker::LineTracker"
+      namespace: "line_tracker"
+      human_switchable: false
+
+    JoyTracker:
+      address: "pairs_uav_trackers::joy_tracker::JoyTracker"
+      namespace: "joy_tracker"
+      human_switchable: false
+
+    SpeedTracker:
+      address: "pairs_uav_trackers::speed_tracker::SpeedTracker"
+      namespace: "speed_tracker"
+      human_switchable: false
+
+    FlipTracker:
+      address: "pairs_uav_trackers::flip_tracker::FlipTracker"
+      namespace: "flip_tracker"
+      human_switchable: false
+
+    MidairActivationTracker:
+      address: "pairs_uav_trackers::midair_activation_tracker::MidairActivationTracker"
+      namespace: "midair_activation_tracker"
+      human_switchable: false
+
+    NullTracker:
+      address: "pairs_uav_managers::NullTracker"
+      namespace: "null_tracker"
+      human_switchable: false
