@@ -35,3 +35,5 @@ nlopt:
   ubuntu: [ros-noetic-nlopt]
 tmuxinator:
   ubuntu: [tmuxinator]
+moreutils:
+  ubuntu: [moreutils]
