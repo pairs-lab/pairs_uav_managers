@@ -15,7 +15,6 @@ set(CATKIN_DEPENDENCIES
   tf2
   tf2_ros
   tf2_geometry_msgs
-  pairs_uav_testing
   )
 
 find_package(catkin REQUIRED COMPONENTS
