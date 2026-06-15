@@ -115,7 +115,7 @@ bool Tester::test() {
       return false;
     }
 
-    if (uh_->mrsSystemReady()) {
+    if (uh_->pairsSystemReady()) {
       break;
     }
   }

@@ -31,7 +31,7 @@ bool Tester::test() {
       return false;
     }
 
-    if (uh->mrsSystemReady()) {
+    if (uh->pairsSystemReady()) {
       break;
     }
   }
