@@ -39,7 +39,7 @@ bool FailedTakeoffTest::test() {
 
     RCLCPP_INFO_THROTTLE(node_->get_logger(), *clock_, 1000, "waiting for the PAIRS UAV System");
 
-    if (uh_->mrsSystemReady()) {
+    if (uh_->pairsSystemReady()) {
       RCLCPP_INFO(node_->get_logger(), "PAIRS UAV System is ready");
       break;
     }
